@@ -2,7 +2,7 @@ import socket
 import sys
 
 HOST = "172.16.38.186"
-PORT = 5555
+PORT = 320907
 
 client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 client.connect((HOST, PORT))
